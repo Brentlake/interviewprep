@@ -1,0 +1,93 @@
+﻿1.If you try to use a variable that does not exist is will show up as not defined. But if you check it using typeof noname then it will return undefined. 
+
+2.Hoisting is the JavaScript interpreter's action of moving all variable and function declarations to the top of the current scope.
+
+3.undefined
+
+4.Methods that are private can only be called by methods within the same class or within the same "module".
+
+5.They are very memory inefficient because a new copy of the method would be created for each instance.
+
+6. A closure is an inner function that has access to the outer (enclosing) function's variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function's variables, and it has access to the global variables.
+
+function init() {
+    var name = "Mozilla"; // name is a local variable created by init
+    function displayName() { // displayName() is the inner function, a closure
+        alert (name); // displayName() uses variable declared in the parent function    
+    }
+    displayName();    
+}
+init();
+
+7. not sure what mul function is. :(
+
+8. A[1,2,3,4];
+	A[];
+
+	B[4,5,6,7];
+
+	B[];
+
+9. 0
+
+ 1
+
+ (foo: 1)
+
+undefined
+
+10. either ["xyz","xxxx","test", apple"]; or 4
+
+11. 0 / "xyz" / true/ true
+
+12. 1
+
+13. Original salary was 1000$ / My new salary is 5000$
+
+14.foo
+
+
+15. They have no properties.
+
+16. A Value Type holds the data within its own memory allocation and a Reference Type contains a pointer to another memory location that holds the real data.
+
+17. In JavaScript, every object is at the same time an instance and a class. To do inheritance, you can use any object instance as a prototype.
+
+===================================================================================================================
+
+ES6 Questions:
+
+1. Javascript is the original name when the language was developed by Netscape. JScript is Microsoft's name of their own implementation. ECMAScript is the name of the language standard developed by ECMA, from the original Javascript implementation. So, it's just one language, with different implementations.
+
+2. N/A
+
+3. one defines and one is the constructor.
+
+4. N/A
+
+5. n/A
+
+6. N/A
+
+7. Promises give us a way to handle asynchronous processing in a more synchronous fashion.
+
+8. N/A
+
+9. It's using an arrow function
+
+10. provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses.
+
+==============================================================================================================================
+Node Js
+
+1. Node js is a javascript server
+
+2. If Google's V8 Engine is the heart of your Node.js application, then callbacks are its veins. ... The “error-first” callback (also known as an “errorback”, “errback”, or “node-style callback”) was introduced to solve this problem, and has since become the standard for Node.js callbacks
+
+3. Is a single-threaded application, but it can support concurrency via the concept of event and callbacks
+
+4. They just want to run a more simple app on their local host.
+
+5. Non-blocking refers to code that doesn't block execution
+
+6. The stack is the memory set aside as scratch space for a thread of execution
